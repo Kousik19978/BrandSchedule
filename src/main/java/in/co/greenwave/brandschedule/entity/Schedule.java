@@ -6,7 +6,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "[dbo].[BrandMaster]")
+@Table(schema = "[dbo]",name = "[BrandSchedule]")
 public class Schedule {
 
 	@Column(name = "UserId")
